@@ -43,3 +43,7 @@ for studentid,details in info.items():
     else:
         print(f"{studentid} name is {details['name']} is  fail with marks {details['marks']}")
 
+# dictionary comprehenstion as key value pair
+list1 = [1,2,4,5]
+dictcomp = {x*2:x*x for x in list1}
+print(dictcomp)
