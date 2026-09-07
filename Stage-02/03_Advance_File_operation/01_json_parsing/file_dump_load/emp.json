@@ -1,0 +1,57 @@
+{
+   "company": "Briar Technologies",
+   "employees": [
+      {
+         "id": 1001,
+         "name": "Kesha",
+         "department": "IT",
+         "skills": [
+            "Python",
+            "SQL",
+            "Cpp",
+            "Cpp"
+         ],
+         "active": true
+      },
+      {
+         "id": 1002,
+         "name": "Pills",
+         "department": "HR",
+         "skills": [
+            "Recruitment",
+            "Communication"
+         ],
+         "active": true
+      },
+      {
+         "id": 1003,
+         "name": "Paniii",
+         "department": "IT",
+         "skills": [
+            "Java",
+            "Docker"
+         ],
+         "active": false
+      },
+      {
+         "id": 1004,
+         "name": "David",
+         "department": "IT",
+         "skills": [
+            "Python",
+            "Docker"
+         ],
+         "active": true
+      },
+      {
+         "id": 1005,
+         "name": "kinni",
+         "department": "Designer",
+         "skills": [
+            "Recruitment",
+            "Communication"
+         ],
+         "active": true
+      }
+   ]
+}
