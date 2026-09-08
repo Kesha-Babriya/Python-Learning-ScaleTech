@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<students>
+  <student id="101">
+    <name>Rahul</name>
+    <branch>CSE</branch>
+    <year>3</year>
+    <marks>88</marks>
+    <skills>
+      <skill>Python</skill>
+      <skill>SQL</skill>
+      <skill>Django</skill>
+    </skills>
+  </student>
+  <student id="102">
+    <name>Priya</name>
+    <branch>IT</branch>
+    <year>2</year>
+    <marks>72</marks>
+    <skills>
+      <skill>Java</skill>
+      <skill>HTML</skill>
+    </skills>
+  </student>
+  <student id="103">
+    <name>Amit</name>
+    <branch>CSE</branch>
+    <year>3</year>
+    <marks>91</marks>
+    <skills>
+      <skill>Python</skill>
+      <skill>JavaScript</skill>
+    </skills>
+  </student>
+  <student id="104">
+    <name>Neha</name>
+    <branch>ECE</branch>
+    <year>2</year>
+    <marks>68</marks>
+    <skills>
+      <skill>C</skill>
+    </skills>
+  </student>
+  <student id="105">
+    <name>Kesha</name>
+    <branch>CSE</branch>
+    <year>3</year>
+    <marks>95</marks>
+    <skills>
+      <skill>Python</skill>
+      <skill>Django</skill>
+    </skills>
+  </student>
+</students>
