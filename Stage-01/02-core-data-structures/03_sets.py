@@ -8,7 +8,6 @@ if 30 in numbers:
 
 numbers.add("kesha")
 numbers.remove(20)
-
 #discard not throw error
 
 a = {10,20,30}
