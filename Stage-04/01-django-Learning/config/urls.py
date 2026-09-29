@@ -20,6 +20,6 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home),        # '' means at root url
+    path('',views.home, name='core-home'),        # '' means at root url
     path("about/",include("core.urls"))
 ]
