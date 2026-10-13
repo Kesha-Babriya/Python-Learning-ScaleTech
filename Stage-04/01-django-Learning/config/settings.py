@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'users.apps.UsersConfig',
+    # Third-party styling packages
+    'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +130,12 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+# Where Django redirects the user AFTER a successful login
+LOGIN_REDIRECT_URL = 'core-home'
+
+# Where @login_required sends users if they try to access a private page without logging in
+LOGIN_URL = 'login'
